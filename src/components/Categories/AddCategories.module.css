@@ -1,0 +1,24 @@
+.addCategories {
+  cursor: pointer;
+}
+
+.addCategoriesTop {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.addCategoriesIcon {
+  padding-bottom: 2px;
+  color: var(--primary-color);
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.addCategoriesText {
+  font-size: 16px;
+}
+
+.addCategoriesInputs {
+  display: none;
+}

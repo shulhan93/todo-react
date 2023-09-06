@@ -1,0 +1,16 @@
+.completedTasks {
+  margin-top: 30px;
+}
+
+.completedTasksCount {
+  display: flex;
+  gap: 8px;
+}
+
+.completedTasksCount span {
+  font-size: 14px;
+}
+
+.completedTaskList {
+  display: none;
+}

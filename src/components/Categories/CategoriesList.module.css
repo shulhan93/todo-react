@@ -1,0 +1,11 @@
+.categoriesList {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: var(--text-color-dark);
+}
+
+.categoriesItem.active {
+  color: var(--primary-color);
+}

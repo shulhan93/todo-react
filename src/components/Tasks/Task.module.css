@@ -1,0 +1,29 @@
+.task {
+  position: relative;
+}
+
+.taskTitle {
+  padding-left: 30px;
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--text-color-dark);
+}
+
+.taskIcon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.taskDescription {
+  font-size: 14px;
+  padding-left: 30px;
+}

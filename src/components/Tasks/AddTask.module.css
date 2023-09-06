@@ -1,0 +1,24 @@
+.task {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.taskTop {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.taskBottom {
+  display: none;
+}
+
+.taskText {
+}
+
+.taskIcon {
+  padding-bottom: 3px;
+  color: var(--primary-color);
+  font-weight: 300;
+  font-size: 24px;
+}

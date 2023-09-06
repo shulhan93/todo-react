@@ -12,4 +12,9 @@
 body {
   font-family: "Open-sans", sans-serif;
   color: var(--text-color);
+  font-size: 18px;
+}
+
+#root {
+  height: 100vh;
 }

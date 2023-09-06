@@ -1,13 +1,13 @@
 import Categories from "../Categories/Categories.jsx";
-import TaskList from "../TaskList/TaskList.jsx";
-import "./App.css";
+import Tasks from "../Tasks/Tasks.jsx";
+import styles from "./App.module.css";
 
 function App() {
   return (
-    <>
+    <div className={styles.app}>
       <Categories />
-      <TaskList />
-    </>
+      <Tasks />
+    </div>
   );
 }
 
