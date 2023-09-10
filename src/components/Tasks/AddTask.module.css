@@ -1,5 +1,4 @@
 .task {
-  cursor: pointer;
   margin-bottom: 10px;
 }
 
@@ -7,6 +6,7 @@
   display: flex;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }
 
 .taskBottom {
@@ -21,4 +21,8 @@
   color: var(--primary-color);
   font-weight: 300;
   font-size: 24px;
+}
+
+.active {
+  display: block;
 }

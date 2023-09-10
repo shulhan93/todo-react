@@ -1,14 +1,16 @@
 import arrowIcon from "../../assets/icons/arrow.svg";
 import checkIcon from "../../assets/icons/check.svg";
 import deleteIcon from "../../assets/icons/delete.svg";
+import styles from "./Tasks.module.css";
+import PropTypes from "prop-types";
 
-import styles from "./CompletedTasks.module.css";
+const CompletedTasks = ({ data }) => {
+  const activeCategory = data.filter((item) => item.category.isActive);
 
-const CompletedTasks = () => {
   return (
     <div className={styles.completedTasks}>
       <div className={styles.completedTasksCount}>
-        <span>Completed (5)</span>
+        <span>Completed ({`${activeCategory[0].completedTask.length}`})</span>
         <img src={arrowIcon} />
       </div>
       <div className={styles.completedTaskList}>
@@ -20,6 +22,10 @@ const CompletedTasks = () => {
       </div>
     </div>
   );
+};
+
+CompletedTasks.propTypes = {
+  data: PropTypes.array.isRequired,
 };
 
 export default CompletedTasks;

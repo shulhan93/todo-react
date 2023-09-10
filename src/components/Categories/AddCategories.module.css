@@ -22,3 +22,7 @@
 .addCategoriesInputs {
   display: none;
 }
+
+.active {
+  display: block;
+}

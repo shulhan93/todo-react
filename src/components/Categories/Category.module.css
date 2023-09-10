@@ -1,0 +1,48 @@
+.category {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.active {
+  color: var(--primary-color);
+}
+
+.icon {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  border: 1px solid var(--line-color);
+  width: 25px;
+  height: 25px;
+}
+
+.icon img {
+  width: 100%;
+  width: 20px;
+  height: 20px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.category:hover .icon {
+  display: flex;
+}
+
+.editCategory {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.form {
+  position: absolute;
+  left: 0;
+}
